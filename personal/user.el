@@ -12,5 +12,8 @@
 
 (global-set-key [f1] 'shell)
 
+;; Java stuff
+(prelude-require-package 'jdee)
+
 (provide 'user)
 ;;; user.el ends here
