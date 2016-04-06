@@ -14,7 +14,6 @@
 (set-frame-font "-*-Source Code Pro-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1" nil t)
 
 ;;; Misc
-(setq prelude-theme 'solarized-dark)
 (setq-default indent-tabs-mode nil)
 (global-linum-mode 1)
 (setq tab-width 2)
