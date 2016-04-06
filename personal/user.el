@@ -10,6 +10,9 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
+;;; Font
+(set-frame-font "-*-Source Code Pro-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1" nil t)
+
 ;;; Misc
 (setq prelude-theme 'solarized-dark)
 (setq-default indent-tabs-mode nil)
@@ -38,6 +41,13 @@
 
 ;; Csharp
 (prelude-require-package 'csharp-mode)
+
+;; Salt
+(add-to-list 'auto-mode-alist '("\\.sls$" . yaml-mode))
+
+;; Markdown
+(prelude-require-package 'markdown-mode)
+(add-to-list 'auto-mode-alist '("\\.(md|markdown)$" . markdown-mode))
 
 (provide 'user)
 ;;; user.el ends here
