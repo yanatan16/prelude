@@ -3,11 +3,35 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        electric-newline-and-maybe-indent
+        forward-sexp
+        indent-new-comment-line
+        kill-sexp
+        markdown-exdent-or-delete
+        ns-copy-including-secondary
+        prelude-move-beginning-of-line
         sp-backward-delete-char
+        sp-backward-kill-word
+        sp-backward-sexp
+        sp-delete-char
+        sp-down-sexp
+        sp-forward-sexp
+        sp-forward-slurp-sexp
+        sp-kill-hybrid-sexp
+        sp-splice-sexp-killing-backward
+        yaml-electric-backspace
         ))
 
 (setq mc/cmds-to-run-once
       '(
         helm-projectile-find-file
+        helm-projectile-switch-project
+        indent-for-tab-command
+        kill-region
         mouse-set-region
+        prelude-indent-defun
+        prelude-top-join-line
+        rjsx-delete-creates-full-tag
+        rjsx-electric-lt
+        sp-remove-active-pair-overlay
         ))

@@ -51,11 +51,15 @@
 
 (define-abbrev-table 'cider-browse-ns-mode-abbrev-table '())
 
+(define-abbrev-table 'cider-clojure-interaction-mode-abbrev-table '())
+
 (define-abbrev-table 'cider-connections-buffer-mode-abbrev-table '())
 
 (define-abbrev-table 'cider-docview-mode-abbrev-table '())
 
 (define-abbrev-table 'cider-inspector-mode-abbrev-table '())
+
+(define-abbrev-table 'cider-repl-history-mode-abbrev-table '())
 
 (define-abbrev-table 'cider-repl-mode-abbrev-table '())
 
@@ -101,9 +105,9 @@
 
 (define-abbrev-table 'edit-abbrevs-mode-abbrev-table '())
 
-(define-abbrev-table 'elixir-mode-abbrev-table '())
+(define-abbrev-table 'elisp-byte-code-mode-abbrev-table '())
 
-(define-abbrev-table 'emacs-lisp-byte-code-mode-abbrev-table '())
+(define-abbrev-table 'elixir-mode-abbrev-table '())
 
 (define-abbrev-table 'emacs-lisp-mode-abbrev-table '())
 
@@ -123,9 +127,9 @@
 
 (define-abbrev-table 'gdb-script-mode-abbrev-table '())
 
-(define-abbrev-table 'gitignore-mode-abbrev-table '())
-
 (define-abbrev-table 'global-abbrev-table '())
+
+(define-abbrev-table 'go-guru-output-mode-abbrev-table '())
 
 (define-abbrev-table 'go-mode-abbrev-table '())
 
@@ -149,6 +153,8 @@
 
 (define-abbrev-table 'haskell-presentation-mode-abbrev-table '())
 
+(define-abbrev-table 'haskell-yesod-parse-routes-mode-abbrev-table '())
+
 (define-abbrev-table 'helm-grep-mode-abbrev-table '())
 
 (define-abbrev-table 'helm-major-mode-abbrev-table '())
@@ -169,9 +175,13 @@
 
 (define-abbrev-table 'inferior-haskell-mode-abbrev-table '())
 
+(define-abbrev-table 'inferior-python-mode-abbrev-table '())
+
 (define-abbrev-table 'java-mode-abbrev-table
   '(
    ))
+
+(define-abbrev-table 'js-jsx-mode-abbrev-table '())
 
 (define-abbrev-table 'js-mode-abbrev-table '())
 
@@ -179,19 +189,21 @@
 
 (define-abbrev-table 'js2-mode-abbrev-table '())
 
-(define-abbrev-table 'js3-mode-abbrev-table '())
-
 (define-abbrev-table 'latex-mode-abbrev-table '())
 
 (define-abbrev-table 'lisp-mode-abbrev-table '())
 
 (define-abbrev-table 'literate-haskell-mode-abbrev-table '())
 
+(define-abbrev-table 'log-edit-mode-abbrev-table '())
+
 (define-abbrev-table 'message-mode-abbrev-table '())
 
 (define-abbrev-table 'messages-buffer-mode-abbrev-table '())
 
 (define-abbrev-table 'nrepl-messages-mode-abbrev-table '())
+
+(define-abbrev-table 'nxml-mode-abbrev-table '())
 
 (define-abbrev-table 'objc-mode-abbrev-table
   '(
@@ -217,9 +229,17 @@
 
 (define-abbrev-table 'prog-mode-abbrev-table '())
 
+(define-abbrev-table 'python-mode-abbrev-table '())
+
+(define-abbrev-table 'python-mode-skeleton-abbrev-table
+  '(
+   ))
+
 (define-abbrev-table 'reb-lisp-mode-abbrev-table '())
 
 (define-abbrev-table 'reb-mode-abbrev-table '())
+
+(define-abbrev-table 'ruby-mode-abbrev-table '())
 
 (define-abbrev-table 'select-tags-table-mode-abbrev-table '())
 
@@ -253,13 +273,13 @@
 
 (define-abbrev-table 'tar-mode-abbrev-table '())
 
+(define-abbrev-table 'term-mode-abbrev-table '())
+
 (define-abbrev-table 'texinfo-mode-abbrev-table '())
 
 (define-abbrev-table 'text-mode-abbrev-table '())
 
 (define-abbrev-table 'url-cookie-mode-abbrev-table '())
-
-(define-abbrev-table 'vc-bzr-log-view-mode-abbrev-table '())
 
 (define-abbrev-table 'vc-dir-mode-abbrev-table '())
 
@@ -267,5 +287,9 @@
 
 (define-abbrev-table 'vc-git-log-view-mode-abbrev-table '())
 
-(define-abbrev-table 'vc-svn-log-view-mode-abbrev-table '())
+(define-abbrev-table 'vc-git-region-history-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-hg-log-view-mode-abbrev-table '())
+
+(define-abbrev-table 'xref--xref-buffer-mode-abbrev-table '())
 
