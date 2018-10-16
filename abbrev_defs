@@ -21,6 +21,8 @@
 
 (define-abbrev-table 'alchemist-test-report-mode-abbrev-table '())
 
+(define-abbrev-table 'anaconda-mode-view-mode-abbrev-table '())
+
 (define-abbrev-table 'apropos-mode-abbrev-table '())
 
 (define-abbrev-table 'awk-mode-abbrev-table
@@ -34,6 +36,8 @@
 (define-abbrev-table 'browse-kill-ring-edit-mode-abbrev-table '())
 
 (define-abbrev-table 'browse-kill-ring-mode-abbrev-table '())
+
+(define-abbrev-table 'bsh-script-mode-abbrev-table '())
 
 (define-abbrev-table 'c++-mode-abbrev-table
   '(
@@ -94,6 +98,8 @@
 (define-abbrev-table 'conf-xdefaults-mode-abbrev-table '())
 
 (define-abbrev-table 'context-mode-abbrev-table '())
+
+(define-abbrev-table 'data-debug-mode-abbrev-table '())
 
 (define-abbrev-table 'debugger-mode-abbrev-table '())
 
@@ -181,6 +187,18 @@
   '(
    ))
 
+(define-abbrev-table 'jdee-mode-abbrev-table
+  '(
+    ("catch" "catch" c-electric-continued-statement 0)
+    ("else" "else" c-electric-continued-statement 0)
+    ("finally" "finally" c-electric-continued-statement 0)
+    ("while" "while" c-electric-continued-statement 0)
+   ))
+
+(define-abbrev-table 'jdee-run-mode-abbrev-table '())
+
+(define-abbrev-table 'jdee-stacktrace-mode-abbrev-table '())
+
 (define-abbrev-table 'js-jsx-mode-abbrev-table '())
 
 (define-abbrev-table 'js-mode-abbrev-table '())
@@ -239,11 +257,15 @@
 
 (define-abbrev-table 'reb-mode-abbrev-table '())
 
+(define-abbrev-table 'rjsx-mode-abbrev-table '())
+
 (define-abbrev-table 'ruby-mode-abbrev-table '())
 
 (define-abbrev-table 'select-tags-table-mode-abbrev-table '())
 
 (define-abbrev-table 'sgml-mode-abbrev-table '())
+
+(define-abbrev-table 'sh-mode-abbrev-table '())
 
 (define-abbrev-table 'shell-mode-abbrev-table '())
 
@@ -269,6 +291,8 @@
 
 (define-abbrev-table 'special-mode-abbrev-table '())
 
+(define-abbrev-table 'speedbar-mode-abbrev-table '())
+
 (define-abbrev-table 'tabulated-list-mode-abbrev-table '())
 
 (define-abbrev-table 'tar-mode-abbrev-table '())
@@ -279,7 +303,17 @@
 
 (define-abbrev-table 'text-mode-abbrev-table '())
 
+(define-abbrev-table 'tuareg-interactive-mode-abbrev-table '())
+
+(define-abbrev-table 'tuareg-mode-abbrev-table
+  '(
+   ))
+
 (define-abbrev-table 'url-cookie-mode-abbrev-table '())
+
+(define-abbrev-table 'utop-list-packages-mode-abbrev-table '())
+
+(define-abbrev-table 'utop-mode-abbrev-table '())
 
 (define-abbrev-table 'vc-dir-mode-abbrev-table '())
 
@@ -290,6 +324,8 @@
 (define-abbrev-table 'vc-git-region-history-mode-abbrev-table '())
 
 (define-abbrev-table 'vc-hg-log-view-mode-abbrev-table '())
+
+(define-abbrev-table 'web-mode-abbrev-table '())
 
 (define-abbrev-table 'xref--xref-buffer-mode-abbrev-table '())
 

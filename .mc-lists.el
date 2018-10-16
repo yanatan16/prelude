@@ -3,9 +3,11 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        c-electric-semi&comma
         electric-newline-and-maybe-indent
         forward-sexp
         indent-new-comment-line
+        jdee-backward-kill-camel-tok
         kill-sexp
         markdown-exdent-or-delete
         ns-copy-including-secondary
@@ -13,11 +15,13 @@
         sp-backward-delete-char
         sp-backward-kill-word
         sp-backward-sexp
+        sp-backward-slurp-sexp
         sp-delete-char
         sp-down-sexp
         sp-forward-sexp
         sp-forward-slurp-sexp
         sp-kill-hybrid-sexp
+        sp-kill-region
         sp-splice-sexp-killing-backward
         yaml-electric-backspace
         ))
@@ -28,10 +32,12 @@
         helm-projectile-switch-project
         indent-for-tab-command
         kill-region
+        markdown-outdent-or-delete
         mouse-set-region
         prelude-indent-defun
         prelude-top-join-line
         rjsx-delete-creates-full-tag
         rjsx-electric-lt
         sp-remove-active-pair-overlay
+        yaml-electric-dash-and-dot
         ))

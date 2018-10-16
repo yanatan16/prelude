@@ -25,6 +25,7 @@
 
 ;; Html stuff
 (setq sgml-basic-offset 2)
+(setq web-mode-markup-indent-offset 2)
 
 ;; Java stuff
 (prelude-require-package 'jdee)
