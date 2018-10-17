@@ -22,4 +22,10 @@ session*
 tramp
 /var/pcache
 anaconda-mode
+.emacs.desktop
+.emacs.desktop.lock
+network-security.data
+prelude-cheatsheet.el
+prelude-cheatsheet.aux
+prelude-cheatsheet.log
 
