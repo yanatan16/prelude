@@ -32,8 +32,15 @@
 (require 'rjsx-mode)
 (eval-after-load 'rjsx-mode
   '(progn
-     (defun prelude-jsx-mode-defaults ()
-       (setq js2-basic-offset 2))))
+	   (defun prelude-jsx-mode-defaults ()
+		   (setq js2-basic-offset 2)
+		   (setq sgml-basic-offset 2))))
+
+(add-hook 'js2-mode
+	(lambda () (setq js2-basic-offset 2)))
+(add-hook 'rjsx-mode
+	(lambda () (setq js2-basic-offset 2)
+		(setq sgml-basic-offset 2)))
 
 
 (provide 'user-js)
