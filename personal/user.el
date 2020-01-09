@@ -131,12 +131,8 @@
 ;; 		(setq indent-tabs-mode nil)
 ;; 		(setq tab-width 1)))
 
-(defun git-stage-commit-push ()
-	(interactive)
-	(magit-stage-modified)
-	(magit-commit)
-	(magit-push))
-(global-set-key (kbd "C-!") #'git-stage-commit-push)
+(global-set-key (kbd "C-!") 'magit-commit)
+(global-set-key (kbd "C-@") 'magit-push)
 
 (provide 'user)
 ;;; user.el ends here
