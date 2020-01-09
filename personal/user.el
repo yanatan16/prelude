@@ -134,5 +134,12 @@
 (global-set-key (kbd "C-!") 'magit-commit)
 (global-set-key (kbd "C-@") 'magit-push)
 
+(defun git-stage-commit-push ()
+	(interactive)
+	(magit-stage-modified)
+	(magit-commit)
+	(magit-push-current-to-upstream))
+(global-set-key (kbd "C-M-!") #'git-stage-commit-push)
+
 (provide 'user)
 ;;; user.el ends here
