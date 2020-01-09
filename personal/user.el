@@ -113,7 +113,7 @@
 (defun refresh-agenda-file-list ()
         (interactive)
         (setq org-agenda-files
-                (directory-files-recursively "~/dev/activision/notes" ".*\.org")))
+                (directory-files-recursively "~/dev/notes" ".*\.org")))
 (refresh-agenda-file-list)
 (add-hook 'org-mode-hook
         (lambda ()
@@ -125,11 +125,18 @@
                 (setq css-indent-offset 4)))
 
 ;; Dockerfile mode
-(prelude-require-package 'dockerfile-mode)
-(add-hook 'dockerfile-mode-hook
-	(lambda ()
-		(setq indent-tabs-mode nil)
-		(setq tab-width 1)))
+;; (prelude-require-package 'dockerfile-mode)
+;; (add-hook 'dockerfile-mode-hook
+;; 	(lambda ()
+;; 		(setq indent-tabs-mode nil)
+;; 		(setq tab-width 1)))
+
+(defun git-stage-commit-push ()
+	(interactive)
+	(magit-stage-modified)
+	(magit-commit)
+	(magit-push))
+(global-set-key (kbd "C-!") #'git-stage-commit-push)
 
 (provide 'user)
 ;;; user.el ends here
